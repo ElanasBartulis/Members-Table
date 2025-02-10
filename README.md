@@ -27,19 +27,16 @@ Member Management System is a web-based application designed to efficiently mana
 
 To run this application locally, follow these steps:
 
-1.```bash
-git clone https://github.com/ElanasBartulis/Members-Table.git
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/ElanasBartulis/Members-Table.git
+   ```
 
-```
+2. **Install Live Server Extension**  
+   Ensure you have the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension installed in VS Code.
 
-2.```bash
-    Install Live Server Extension
-```
-
-3.```bash
-Use the Extension by pressing "Go Live" in the bottom right corner
-
-```
+3. **Start the Live Server**  
+   Click **"Go Live"** in the bottom right corner of VS Code to launch the project.
 
 ## Conclusion
 
@@ -59,8 +56,6 @@ The project helped me understand the importance of code organization, user inter
 Here’s a small demo showing of this project :
 
 ![Demo GIF](./gif/members-table.gif)
-
-```
 
 ```
 
