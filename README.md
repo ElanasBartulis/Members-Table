@@ -27,13 +27,24 @@ Member Management System is a web-based application designed to efficiently mana
 
 To run this application locally, follow these steps:
 
-1. ```bash
+1.
+
+```bash
    git clone https://github.com/ElanasBartulis/Members-Table.git
-   ```
+```
+
+2.
+
+```bash
+    Install Live Server Extension
+```
+
+3.
+
+```bash
+    Use the Extension by pressing "Go Live" in the bottom right corner
 
 ```
-2. `Install Live Server Extension`
-3. ` Use the Extension by pressing "Go Live" in the bottom right corner`
 
 ## Conclusion
 
@@ -53,4 +64,7 @@ The project helped me understand the importance of code organization, user inter
 Here’s a small demo showing of this project :
 
 ![Demo GIF](./gif/members-table.gif)
+
+```
+
 ```
