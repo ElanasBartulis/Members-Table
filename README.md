@@ -28,7 +28,7 @@ To run this application locally, follow these steps:
 
 1. ``` Clone the repository ```
 2. ``` Install Live Server Extension ```
-3. ``` And just press "Go Live" ```
+3. ``` Use the Extension by pressing "Go Live" in the bottom right corner```
 
 ## Conclusion
 
