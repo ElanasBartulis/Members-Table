@@ -26,13 +26,13 @@ Member Management System is a web-based application designed to efficiently mana
 
 To run this application locally, follow these steps:
 
-1. Clone the repository
+1. ``` Clone the repository ```
 2. Install Live Server Extension
 3. And just press "Go Live"
 
 ## Conclusion
 
-This Contact Management System represents one of my first significant JavaScript projects, serving as a valuable learning experience in web development. Through this project, I gained practical experience with various JavaScript concepts including:
+This Member Management System represents one of my first significant JavaScript projects, serving as a valuable learning experience in web development. Through this project, I gained practical experience with various JavaScript concepts including:
 
 - DOM manipulation
 - Event handling
