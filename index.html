@@ -1,164 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="blur-effect">
+      <nav>
+        <div class="container">
+          <div class="navigation">
+            <div class="left">
+              <a href="#">
+                <h2><i class="bi bi-braces"></i> LOGO</h2>
+              </a>
+            </div>
 
-        <nav>
-            <div class="container">
-                <div class="navigation">
-    
-                    <div class="left">
-                        <a href="#">
-                            <h2><i class="bi bi-braces"></i> LOGO</h2>
-                        </a>
-                    </div>
-    
-                    <div class="right">
-                        <a href="#">Link</a>
-                        <a href="#">Link</a>
-                    </div>
-    
-                </div>
+            <div class="right">
+              <a href="#">Link</a>
+              <a href="#">Link</a>
             </div>
-        </nav>
-    
-        <main>
-            <div class="container">
-                <div class="main-info">
-                    
-                    <h2>Add member</h2>
-                    <div class="input">
-                        <label>
-                            <span>Name: </span>
-                            <input id="Name" type="text" placeholder="Name" required>
-                        </label>
-                    </div>
-                    <div class="input">
-                        <label>
-                            <span>Email: </span>
-                            <input id="Email" type="email" placeholder="Email" required>
-                        </label>
-                    </div>
-                    <div class="input">
-                        <label>
-                            <span>Phone number: </span>
-                            <input id="Phone" type="tel" placeholder="+370" required>
-                        </label>
-                    </div>
-                    <div class="input">
-                        <label>
-                            <span>Gender: </span>
-                            <select id="Gender">
-                                <option value="Male">Male</option>
-                                <option value="Female">Female</option>
-                            </select>
-                        </label>
-                    </div>
-                    <div class="input">
-                        <label>
-                            <span>Profession: </span>
-                            <select id="Profession">
-                                <option value="Plummer">Plummer</option>
-                                <option value="Electrician">Electrician</option>
-                                <option value="Programmer">Programmer</option>
-                                <option value="Designer">Designer</option>
-                            </select>
-                        </label>
-                    </div>
-                    <button onclick="addPeople()">Save</button>
-                </div>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <div class="container">
+          <div class="main-info">
+            <h2>Add member</h2>
+            <div class="input">
+              <label>
+                <span>Name: </span>
+                <input id="Name" type="text" placeholder="Name" required />
+              </label>
             </div>
-        </main>
-    
-        <section>
-            <div class="container">
-                <div class="members">
-                    <h3>Members</h3>
-                    <span id="user-length">48 users</span>
-                </div>
-                <table>
-                    <thead>
-                        <tr>
-                            <th><i class="bi bi-person-circle"></i></th>
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th>Phone No.</th>
-                            <th>Gender</th>
-                            <th>Profession</th>
-                            <th>Edit</th>
-                        </tr>
-                    </thead>
-                    <tbody id="Person-list">
-    
-                    </tbody>
-                </table>
+            <div class="input">
+              <label>
+                <span>Email: </span>
+                <input id="Email" type="email" placeholder="Email" required />
+              </label>
             </div>
-        </section>
+            <div class="input">
+              <label>
+                <span>Phone number: </span>
+                <input id="Phone" type="tel" placeholder="+370" required />
+              </label>
+            </div>
+            <div class="input">
+              <label>
+                <span>Gender: </span>
+                <select id="Gender">
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </label>
+            </div>
+            <div class="input">
+              <label>
+                <span>Profession: </span>
+                <select id="Profession">
+                  <option value="Plummer">Plummer</option>
+                  <option value="Electrician">Electrician</option>
+                  <option value="Programmer">Programmer</option>
+                  <option value="Designer">Designer</option>
+                </select>
+              </label>
+            </div>
+            <button onclick="addPeople()">Save</button>
+          </div>
+        </div>
+      </main>
+
+      <section>
+        <div class="container">
+          <div class="members">
+            <h3>Members</h3>
+            <span id="user-length">48 users</span>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th><i class="bi bi-person-circle"></i></th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone No.</th>
+                <th>Gender</th>
+                <th>Profession</th>
+                <th>Edit</th>
+              </tr>
+            </thead>
+            <tbody id="Person-list"></tbody>
+          </table>
+        </div>
+      </section>
     </div>
 
-        <dialog>
-            <div class="center-div">
-    
-                <div id="dialog-box">
-        
-                    <h2>Edit Box</h2>
-                    <div class="input">
-                        <label class="grid">
-                            <div class="left-div">Name: </div>
-                            <input id="Name-edit" type="text" placeholder="Name">
-                        </label>
-                    </div>
-                    <div class="input">
-                        <label class="grid">
-                            <div class="left-div">Email: </div>
-                            <input id="Email-edit" type="email" placeholder="Email">
-                        </label>
-                    </div>
-                    <div class="input">
-                        <label class="grid">
-                            <div class="left-div">Phone number: </div>
-                            <input id="Phone-edit" type="tel" placeholder="+370">
-                        </label>
-                    </div>
-                    <div class="input">
-                        <label>
-                            <span>Gender: </span>
-                            <select id="Gender-edit">
-                                <option value="Male">Male</option>
-                                <option value="Female">Female</option>
-                            </select>
-                        </label>
-                    </div>
-                    <div class="input">
-                        <label>
-                            <span>Profession:</span>
-                            <select id="Profession-edit">
-                                <option value="Plummer">Plummer</option>
-                                <option value="Electrician">Electrician</option>
-                                <option value="Programmer">Programmer</option>
-                                <option value="Designer">Designer</option>
-                            </select>
-                        </label>
-                    </div>
-                    <div>
-                        <button onclick="closeEditBox()">Close</button>
-                        <button onclick="save()">Save</button>
-                    </div>
-                    
-                </div>
-            </div>
-        </dialog>
-    
+    <dialog>
+      <div class="center-div">
+        <div id="dialog-box">
+          <h2>Edit Box</h2>
+          <div class="input">
+            <label class="grid">
+              <div class="left-div">Name:</div>
+              <input id="Name-edit" type="text" placeholder="Name" />
+            </label>
+          </div>
+          <div class="input">
+            <label class="grid">
+              <div class="left-div">Email:</div>
+              <input id="Email-edit" type="email" placeholder="Email" />
+            </label>
+          </div>
+          <div class="input">
+            <label class="grid">
+              <div class="left-div">Phone number:</div>
+              <input id="Phone-edit" type="tel" placeholder="+370" />
+            </label>
+          </div>
+          <div class="input">
+            <label>
+              <span>Gender: </span>
+              <select id="Gender-edit">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </label>
+          </div>
+          <div class="input">
+            <label>
+              <span>Profession:</span>
+              <select id="Profession-edit">
+                <option value="Plummer">Plummer</option>
+                <option value="Electrician">Electrician</option>
+                <option value="Programmer">Programmer</option>
+                <option value="Designer">Designer</option>
+              </select>
+            </label>
+          </div>
+          <div>
+            <button onclick="closeEditBox()">Close</button>
+            <button onclick="save()">Save</button>
+          </div>
+        </div>
+      </div>
+    </dialog>
 
     <script src="./Scripts/edit.js"></script>
     <script src="./Scripts/deleteBtn.js"></script>
@@ -166,5 +162,5 @@
     <script src="./Scripts/addPerson.js"></script>
     <script src="./Scripts/htmlGenerator.js"></script>
     <script src="./Scripts/index.js"></script>
-</body>
+  </body>
 </html>
