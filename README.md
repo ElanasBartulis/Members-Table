@@ -14,7 +14,7 @@ Member Management System is a web-based application designed to efficiently mana
 - Delete contacts with a **single click**  
 - Real-time **contact counter** displaying the total number of stored contacts 
 
-## Technologies Used
+## 🛠 Technologies Used  
 
 - **HTML5** → Structure and content  
 - **CSS3** → Styling and animations  
@@ -22,7 +22,7 @@ Member Management System is a web-based application designed to efficiently mana
 - **localStorage API** → Data persistence  
 - **Bootstrap Icons** → UI icons  
 
-## Prerequisites
+## 🚀 Prerequisites
 
 To run this application locally, follow these steps:
 
@@ -37,7 +37,7 @@ To run this application locally, follow these steps:
 3. **Start the Live Server**  
    Click **"Go Live"** in the bottom right corner of VS Code to launch the project.
 
-## Conclusion
+## 📚 Conclusion
 
 This Member Management System represents one of my first significant JavaScript projects, serving as a valuable learning experience in web development. Through this project, I gained practical experience with various JavaScript concepts including:
 
