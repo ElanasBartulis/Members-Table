@@ -7,6 +7,7 @@ Member Management System is a web-based application designed to efficiently mana
 ## Features
 
 ### Contact Management
+
 - Add new contacts with detailed information including name, email, phone number, gender, and profession
 - View all contacts in an organized table format
 - Edit existing contact information through a modal interface
@@ -26,9 +27,9 @@ Member Management System is a web-based application designed to efficiently mana
 
 To run this application locally, follow these steps:
 
-1. ``` Clone the repository ```
-2. ``` Install Live Server Extension ```
-3. ``` Use the Extension by pressing "Go Live" in the bottom right corner```
+1. `Clone the repository`
+2. `Install Live Server Extension`
+3. ` Use the Extension by pressing "Go Live" in the bottom right corner`
 
 ## Conclusion
 
@@ -42,3 +43,9 @@ This Member Management System represents one of my first significant JavaScript 
 - JavaScript modules and organization
 
 The project helped me understand the importance of code organization, user interface design, and data persistence in web applications. While simple in concept, it implements many fundamental programming patterns and practices that are essential in modern web development.
+
+## Demo
+
+Here’s a small demo showing of this project :
+
+![Demo GIF](./gif/members-table.gif)
