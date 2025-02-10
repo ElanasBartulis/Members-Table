@@ -30,11 +30,11 @@ To run this application locally, follow these steps:
 1.```bash
 git clone https://github.com/ElanasBartulis/Members-Table.git
 
-````
+```
 
 2.```bash
     Install Live Server Extension
-````
+```
 
 3.```bash
 Use the Extension by pressing "Go Live" in the bottom right corner
